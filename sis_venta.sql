@@ -1,11 +1,4 @@
--- phpMyAdmin SQL Dump
--- version 5.0.2
--- https://www.phpmyadmin.net/
---
--- Servidor: 127.0.0.1
--- Tiempo de generación: 09-03-2021 a las 10:49:05
--- Versión del servidor: 10.4.14-MariaDB
--- Versión de PHP: 7.4.9
+
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -162,7 +155,7 @@ CREATE TABLE `configuracion` (
 --
 
 INSERT INTO `configuracion` (`id`, `dni`, `nombre`, `razon_social`, `telefono`, `email`, `direccion`, `igv`) VALUES
-(1, 2580, 'Vida Informático', 'Vida Informático', 925491523, 'naju@vidainformatico.com', 'Lima - Perú', '1.18');
+(1, 2580, 'Ismael Regalado', 'Ismael Regalado', 925491523, 'naju@vidainformatico.com', 'Esquipulas - Guatemala', '1.18');
 
 -- --------------------------------------------------------
 
@@ -328,8 +321,8 @@ CREATE TABLE `usuario` (
 --
 
 INSERT INTO `usuario` (`idusuario`, `nombre`, `correo`, `usuario`, `clave`, `rol`) VALUES
-(1, 'Vida Informatico', 'vida@gmail.com', 'admin', '21232f297a57a5a743894a0e4a801fc3', 1),
-(6, 'Maria Perez Miranda', 'maria@gmail.com', 'maria', '263bce650e68ab4e23f28263760b9fa5', 1),
+(1, 'Ismael Regalado', 'vida@gmail.com', 'admin', '21232f297a57a5a743894a0e4a801fc3', 1),
+(6, 'Jonatan', 'jonatan@gmail.com', 'iregalado', '263bce650e68ab4e23f28263760b9fa5', 1),
 (9, 'angel', 'angel@gmail.com', 'angel', 'f4f068e71e0d87bf0ad51e6214ab84e9', 2);
 
 --

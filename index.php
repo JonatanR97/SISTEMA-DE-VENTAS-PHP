@@ -49,9 +49,10 @@ if (!empty($_SESSION['active'])) {
 
   <title>Bavalu</title>
 
-  <!-- Custom fonts for this template-->
+  <!-- Fuentes personalizadas para esta plantilla -->
   <link rel="stylesheet" href="sistema/vendor/bootstrap/css/bootstrap.min.css">
-  <!-- Custom styles for this template-->
+  
+<!-- Estilos personalizados para esta plantilla -->
   <link href="sistema/css/style.violet.css" rel="stylesheet">
 
 </head>
@@ -59,14 +60,14 @@ if (!empty($_SESSION['active'])) {
 <body class="bg-gradient-primary">
 
   <div class="container">
-    <!-- Outer Row -->
+    <!-- Fila exterior -->
     <div class="row justify-content-center">
 
       <div class="col-xl-10 col-lg-12 col-md-9">
 
         <div class="card o-hidden border-0 shadow-lg my-5">
           <div class="card-body p-0">
-            <!-- Nested Row within Card Body -->
+            <!-- Fila anidada dentro del cuerpo de la tarjeta -->
             <div class="row">
               <div class="col-lg-6 d-none d-lg-block bg-login-image">
                 <img src="sistema/img/bavalu.jpg" class="img-thumbnail">
@@ -101,7 +102,7 @@ if (!empty($_SESSION['active'])) {
 
   </div>
 
-  <!-- JavaScript files-->
+  <!-- JavaScript archivos-->
     <script src="sistema/vendor/jquery/jquery.min.js"></script>
     <script src="sistema/vendor/popper.js/umd/popper.min.js"> </script>
     <script src="sistema/vendor/bootstrap/js/bootstrap.min.js"></script>

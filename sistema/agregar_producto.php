@@ -47,7 +47,7 @@ if (!empty($_POST)) {
 }
 ?>
 
-<!-- Begin Page Content -->
+<!-- Contenido de la página de inicio -->
 <div class="container-fluid">
 
     <div class="row">
@@ -86,5 +86,5 @@ if (!empty($_POST)) {
 
 
 </div>
-<!-- End of Main Content -->
+<!-- Contenido final -->
 <?php include_once "includes/footer.php"; ?>
