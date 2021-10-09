@@ -389,6 +389,8 @@ if ($_POST['action'] == 'procesarVenta') {
     $data = 0;
     exit;
     }
+
+    
     // Cambiar contraseña
     if ($_POST['action'] == 'changePasword') {
       if (!empty($_POST['passActual']) && !empty($_POST['passNuevo'])) {

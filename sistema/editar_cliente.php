@@ -54,6 +54,7 @@ if ($result_sql == 0) {
     $direccion = $data['direccion'];
   }
 }
+
 ?>
 <!-- Begin Page Content -->
 <div class="container-fluid">

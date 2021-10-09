@@ -96,6 +96,7 @@
                         <!-- Contenido ajax -->
 
                     </tbody>
+                    
 
                     <tfoot id="detalle_totales">
                         <!-- Contenido ajax -->

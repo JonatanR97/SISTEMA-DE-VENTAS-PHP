@@ -19,4 +19,5 @@ if ($actualizar_empresa) {
  <?php
   include "includes/footer.php";
   ?>
+  
  

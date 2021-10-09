@@ -6,4 +6,5 @@ if (!empty($_GET['id'])) {
     mysqli_close($conexion);
     header("location: lista_usuarios.php");
 }
+
 ?>

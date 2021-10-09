@@ -30,6 +30,7 @@
 						<?php
 						include "../conexion.php";
 
+						
 						$query = mysqli_query($conexion, "SELECT * FROM cliente");
 						$result = mysqli_num_rows($query);
 						if ($result > 0) {

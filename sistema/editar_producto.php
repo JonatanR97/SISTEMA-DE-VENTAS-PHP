@@ -99,7 +99,6 @@ if (empty($_REQUEST['id'])) {
     </div>
   </div>
 
-
 </div>
 <!-- /.container-fluid -->
 <!-- End of Main Content -->

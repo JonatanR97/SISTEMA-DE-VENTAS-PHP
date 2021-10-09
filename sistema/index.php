@@ -26,6 +26,7 @@
 			</div>
 		</a>
 
+		
 		<!-- Earnings (Monthly) Card Example -->
 		<a class="col-xl-3 col-md-6 mb-4" href="lista_cliente.php">
 			<div class="card border-left-success shadow h-100 py-2 bg-white">

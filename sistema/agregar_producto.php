@@ -19,6 +19,7 @@ if (empty($_REQUEST['id'])) {
         header("Location: lista_productos.php");
     }
 }
+
 // Agregar Productos a entrada
 if (!empty($_POST)) {
     $alert = "";

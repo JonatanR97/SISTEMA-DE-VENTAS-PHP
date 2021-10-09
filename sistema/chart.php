@@ -19,5 +19,6 @@ if ($_POST['action'] == 'polarChart') {
     echo json_encode($arreglo);
     die();
 }
+
 //
 ?>

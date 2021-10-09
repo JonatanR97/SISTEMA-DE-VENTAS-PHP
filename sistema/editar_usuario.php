@@ -94,7 +94,6 @@ if ($result_sql == 0) {
     </div>
   </div>
 
-
 </div>
 <!-- /.container-fluid -->
 <?php include_once "includes/footer.php"; ?>
