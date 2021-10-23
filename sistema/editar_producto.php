@@ -26,7 +26,7 @@ if (!empty($_POST)) {
   }
 }
 
-// Validar producto
+// Validar el producto
 
 if (empty($_REQUEST['id'])) {
   header("Location: lista_productos.php");
@@ -98,8 +98,8 @@ if (empty($_REQUEST['id'])) {
       </div>
     </div>
   </div>
-
 </div>
+
 <!-- /.container-fluid -->
 <!-- End of Main Content -->
 <?php include_once "includes/footer.php"; ?>

@@ -26,11 +26,13 @@
 						mysqli_close($conexion);
 						$cli = mysqli_num_rows($query);
 
+						
 						if ($cli > 0) {
 							while ($dato = mysqli_fetch_array($query)) {
 						?>
+
 								<tr>
-									<td><?php echo $dato['nofactura']; ?></td>
+									<td><?php echo $dato['nofactura']; ?></td> 
 									<td><?php echo $dato['fecha']; ?></td>
 									<td><?php echo $dato['totalfactura']; ?></td>
 									<td>

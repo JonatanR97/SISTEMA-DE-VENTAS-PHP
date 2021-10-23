@@ -1,7 +1,8 @@
 <?php
 include_once "includes/header.php";
 include "../conexion.php";
-// Validar producto
+// Validar producto ....
+
 
 if (empty($_REQUEST['id'])) {
     header("Location: lista_productos.php");
@@ -20,7 +21,7 @@ if (empty($_REQUEST['id'])) {
     }
 }
 
-// Agregar Productos a entrada
+// Agregar Productos....
 if (!empty($_POST)) {
     $alert = "";
     if (!empty($_POST['cantidad']) || !empty($_POST['precio']) || !empty($_POST['producto_id'])) {
