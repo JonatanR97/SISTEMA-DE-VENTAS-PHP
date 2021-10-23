@@ -17,7 +17,7 @@
 					<thead class="thead-dark">
 						<tr>
 							<th>ID</th>
-							<th>DNI</th>
+							<th>DPI</th>
 							<th>NOMBRE</th>
 							<th>TELEFONO</th>
 							<th>DIRECCIÓN</th>
