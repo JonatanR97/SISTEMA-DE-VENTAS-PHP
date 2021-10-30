@@ -86,24 +86,18 @@
 				</div>
 			</div>
 		</a>
-	<!--  	<div class="col-lg-6">
+		<!--  
+		<div class="col-lg-7">
 			<div class="au-card m-b-30">
 				<div class="au-card-inner">
-					<h3 class="title-2 m-b-40">Productos con stock mínimo</h3>
-					<canvas id="sales-chart"></canvas>
-				</div>
-			</div>
-		</div>
-		-->
-		<div class="col-lg-6">
-			<div class="au-card m-b-30">
-				<div class="au-card-inner">
-					<h3 class="title-2 m-b-40">Productos más vendidos</h3>
+					<h3 class="title-7 m-b-40">Productos más vendidos</h3>
 					<canvas id="polarChart"></canvas>
 				</div>
 			</div>
 		</div>
 	</div>
+
+	-->
 
 
 </div>
